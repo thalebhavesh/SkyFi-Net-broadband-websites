@@ -1,0 +1,587 @@
+/*header */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('img/backorange.jpg');
+    
+}
+
+/* welocome modal */
+.wlcmsg
+{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #d81d1d;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;   
+}
+
+.navbar-nav .nav-link {
+    transition: transform 0.1s ;
+    color: #000000;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    transform: scale(1.1);
+  }
+  .navbar-nav > li{
+    margin-left:90px;
+    margin-right:0px;
+    font-weight: bolder;
+    color: #000000;
+    
+  }  
+
+  /*wifi slogan*/
+  .slogan{
+    font-weight: bold;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+  .sloganp{
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }
+
+/* textfont Best BroadBand Service Provider */
+
+.divbac
+{
+    background-image: url('img/backorange.jpg');
+    
+}
+.text-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* Prevents overflow during animation */
+}
+
+.p1 {
+    color: rgb(247, 57, 73);
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15), 2px -6px 0px rgba(230,9,9,0);
+}
+
+
+/* Table Best broadband service */
+.tablef1 {
+    border: 3px solid lightgray;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trf1 .tdf1{
+    border: 3px solid lightgray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.trf1 .tdf1:hover {
+    background: rgb(250,251,243);
+background: linear-gradient(90deg, rgba(250,251,243,1) 0%, rgba(241,158,85,1) 0%, rgba(252,221,163,1) 48%, rgba(252,176,69,1) 100%);
+    color: red;
+}
+
+
+/* Table Best broadband service  content and image */
+
+.imgtable {
+    width: 30px;
+    height: 30px;
+}
+
+.ptable {
+    color: blue;
+}
+
+/* Text font We have Perfect Package for you */
+.text-containergreen {
+    display: flex;
+    justify-content: center;
+    overflow: hidden; 
+}
+
+.pgreen {
+    color: green;
+    font-size: 35px;
+    
+    left: -100%; 
+    white-space: nowrap;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15), 2px -6px 0px rgba(230,9,9,0);
+}
+
+/* Table perfect package */
+.tablef2 {
+    border: 2px solid lightgray;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    height: 0;
+    background-color: white;
+    
+}
+.trf2 .tdf2{
+    border: 2px solid lightgray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+.tdf22 {
+    border: 2px solid lightgray;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+}
+.tdf11{
+    border: 2px solid lightgray;
+    background-color: rgb(67, 67, 67);
+    opacity: 0.9;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+.tdf12{
+    border: 2px solid lightgray;
+    background-color: rgb(66, 102, 245);
+    opacity: 0.9;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+.tdf13{
+    border: 2px solid lightgray;
+    background-color: rgb(47, 190, 78);
+    opacity: 0.9;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+/* jquary table package apply */
+
+#tpack tr {
+    transition: background-color 0.3s ease;
+  }
+  
+  #tpack tr:hover {
+    background-color: #F6E8CE;
+  }
+  
+
+/* headline video A Small Connection to a Big World */
+
+.text-containervideo {
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* Prevents overflow during animation */
+}
+
+.pvideo {
+    color: rgb(198, 30, 170);
+    font-size: larger;
+   
+    font-size: 35px;
+    font-weight: bold;
+    left: -100%; /* Start off-screen to the left */
+    white-space: nowrap; /* Keeps the text on one line */
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15), 2px -6px 0px rgba(230,9,9,0);
+}
+
+.video1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    height: 500px;
+    align-content: center;
+}
+
+.offer 
+{
+    color: rgb(40, 36, 39);
+    font-size: larger;
+    position: relative;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Contact us table */
+
+.tablef3 {
+    border: 0px solid  black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.trf3 .tdf3{
+    border: 1px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tdf31 {
+    font-size: 18px;
+}
+
+/*dropdown list mbps*/
+.tdf32 {
+	position: relative;
+}
+
+.tdf32 select {
+	appearance: none;
+	-webkit-appearance: none;
+	width: 100%;
+	font-size: 15px;
+	padding: 5px 10px 5px 10px;
+	background-color: #FFFFFF;
+	border: 0px solid #C4D1EB;
+	border-radius: 5px;
+	color: #000000;
+	cursor: pointer;
+	outline: none;
+	box-shadow: 3px 3px 2px 0px #E2E2E2;
+}
+
+.tdf32 select:focus {
+	background: #F2F2F2;
+	border: 1px solid #5A7EC7;
+	border-radius: 5px;
+}
+
+.tdf32::after {
+	content: "";
+	position: absolute;
+	pointer-events: none;
+	top: 50%;
+	right: 10px;
+	transform: translate(0, -50%);
+	width: 12px;
+	height: 12px;
+	background-color: #000000;
+	clip-path: polygon(8% 17%, 0% 25%, 50% 84%, 100% 25%, 92% 17%, 50% 65%);
+}
+
+
+.tablef3button
+{
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #3d348b
+}
+.tablef3button:hover{
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+}
+.tablef3button:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  .tablef3button:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }
+
+  /*footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ddd;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid #777;
+    padding-top: 20px;
+}
+
+.socials li {
+    display: inline;
+    margin: 0 10px;
+}
+
+@media (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+    }
+}
+
+.tableoff{
+    border: 0px solid  black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Plans HTML Page */
+/* plan page for banner*/
+.banner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/unlimited\ net.PNG');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    color: rgb(247, 240, 240);
+    text-align: center;
+}
+
+.banner-content1 h1 {
+    font-size: 3em;
+    margin: 0 0 20px 0;
+}
+
+.banner-content1 p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+/* Table unlimited package plans */
+.tablefplans {
+    border: 2px solid lightgray;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    height: 0;
+    background-color: white;
+}
+.tdfplans12{
+    border: 2px solid lightgray;
+    background-color: rgb(9, 9, 9);
+    opacity: 0.9;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+
+.tablefplans tr {
+    transition: background-color 0.5s ease;
+  }
+  
+  .tablefplans tr:hover {
+    background-color: #FCDDA3;
+  }
+  
+/* textfont ulimited plans */
+.plans1{
+    color: rgb(25, 128, 218);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15), 2px -6px 0px rgba(230,9,9,0);
+}
+/* Text font small conncetion big wolrd */
+
+
+.plansgreen {
+    color: green;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15), 2px -6px 0px rgba(230,9,9,0);
+}
+
+/* Support page design */
+
+/* support banner page */
+/* plan page for banner*/
+.bannersupp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/support.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    color: rgb(247, 240, 240);
+    text-align: center;
+}
+
+.banner-contentsupp h1 {
+    font-size: 3em;
+    margin: 0 0 20px 0;
+}
+
+.banner-contentsupp p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+/* designer filedset sales and support */
+.designer-fieldset {
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.designer-fieldset legend {
+    color: #4CAF50; /* Green text */
+    font-size: 34px;
+    padding: 0 10px;
+    border: none; /* Remove default border */
+    font-weight: bold;
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC, 2px -6px 0px rgba(230,9,9,0);
+}
+
+/*contact us page */
+
+.contact-form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* contact us page type */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.input-group input[type="text"],
+.input-group input[type="email"],
+.input-group input[type="text"],
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; 
+}
+
+.input-group textarea {
+    resize: vertical;
+}
+
+/* contact us button code */
+.buttonc
+{
+    min-width: 200px;
+    height: 50px;
+    margin-left: 200px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #3d348b
+}
+.buttonc:hover{
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+}
+.buttonc:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  .buttonc:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }
+  
